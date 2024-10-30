@@ -1,0 +1,183 @@
+/* variables de color */
+:root{
+    --color-azul: #87CEEB;
+    --color-blanco: #ffffff; 
+    --color-negro: #000000; 
+}
+
+header{
+    background-color: var(--color-azul);
+    color: var(--color-negro);
+}
+
+body{
+  background-color: var(--color-blanco);
+  color: var(--color-negro);
+}
+
+footer{
+    background-color: var(--color-azul);
+    color: var(--color-negro);
+}
+
+/* =======================================================================*/
+/* Desplazamiento más lento del menú */
+html{
+  scroll-behavior: smooth;
+}
+
+/* =======================================================================*/
+/*Propiedades*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+
+/* =======================================================================*/
+/* Cabecera y Menú Principal  */
+header{
+    padding: 20px 90px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav#principal ul {
+list-style: none;
+margin-top: 80px;
+}
+
+nav#principal li{ 
+    display: inline;
+    margin: 10px;
+
+}
+
+nav#principal a{
+    color: var(--color-negro);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 40px;
+}
+
+
+/* =======================================================================*/
+/* MAIN */
+
+main {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1024px;
+    font-size: 20px;
+  }
+  
+h2, h3, h4, h5, h6{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0; 
+  }
+  
+p, label, input, select {
+    margin-bottom: 20px;
+    line-height: 1.8rem;
+  }
+
+  
+section {
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+/* =======================================================================*/
+/* Página principal (PRESENTACION)  */
+
+#presentacion{
+    border-radius: 8px;
+}
+#presentacion span{
+    display: flex; 
+    justify-content: center;
+}
+
+#presentacion img{
+    width: 750px;
+    height: 350px;
+    margin: 10px; 
+}
+
+/* Página principal (BENEFICIOS)  */
+#beneficios{
+  border-radius: 8px;
+}
+
+.principalesBeneficios li{
+    margin-bottom: 15px;
+}
+
+.adicionales li{
+    margin-bottom: 15px;
+}
+
+/* Página principal (DESVENTAJAS)  */
+#desventajas{
+  border-radius: 8px;
+}
+
+.limitaciones li{
+    margin-bottom: 15px;
+}
+
+/* Página principal (EVOLUCION)  */
+#evolucion{
+    border-radius: 8px;
+  }
+  
+.dispositivos{
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin: 20px 0;
+}
+
+.dispositivos img{
+    width: 210px; 
+    height: 130px; 
+    border-radius: 5px;
+    
+}
+    /* Ajusta el ancho solo para la primera imagen */
+.dispositivos img:first-child {
+    width: 140px; /* Cambia el ancho según tus necesidades */
+    height: 130px;
+}
+
+
+/* Página principal (FUTURO)  */
+#futuro{
+    border-radius: 8px;
+  }
+  
+
+/* =======================================================================*/
+/* Pie de página */
+
+footer {
+    padding: 15px;
+    height: 150px;
+    text-align: center;
+   
+  }
+
+#contacto a {
+    color: var(--color-negro);
+  }
+
+
+
+  
